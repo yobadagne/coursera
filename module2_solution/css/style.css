@@ -1,6 +1,82 @@
-@media(min-width=992px)/* desktop version*/
-{}
-@media(min-width=768px) and (max-width=991px)/* tablet version*/
-{}
-@media(max-width=767px)/* mobile version*/
-{}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 1.75rem;
+}
+
+section div{
+    position: relative;
+    background-color: beige;
+    
+    
+}
+p{
+    border: 1px solid black;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding: 2px 50px;
+    font-size: 1.25rem;
+    
+}
+.section1 p{
+    background-color: chocolate;
+}
+.section2 p{
+    background-color: cadetblue;
+
+}
+.section3 p{
+    background-color: crimson;
+}
+@media (min-width:992px) /* desktop version*/
+{
+   section div {
+        margin:1%;
+        border: 1px solid black;
+        width: 31.3%;
+        padding-top:25px;
+        float: left;
+        
+}
+
+}
+@media (min-width:768px) and (max-width:991px)/* tablet version*/
+{
+    .section1>div,.section2>div
+    {
+        margin:1%;
+        border: 1px solid black;
+        width:48%;
+        padding-top :25px;
+        float: left;
+
+    }
+    .section3>div{
+        margin:1%;
+        border: 1px solid black;
+        width:98%;
+        padding-top:25px;
+        float: left;
+    }
+
+}
+@media (max-width:767px)/* mobile version*/
+{
+    section div{
+        margin:1%;
+        border: 1px solid black;
+        width: 98%;
+        padding-top:25px;
+        
+    
+}
+
+
+}
