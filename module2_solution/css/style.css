@@ -10,11 +10,9 @@ h1{
     font-size: 1.75rem;
 }
 
-section div{
+section{
     position: relative;
-    background-color: beige;
-    
-    
+    background-color: beige;    
 }
 p{
     border: 1px solid black;
@@ -37,7 +35,7 @@ p{
 }
 @media (min-width:992px) /* desktop version*/
 {
-   section div {
+   section {
         margin:1%;
         border: 1px solid black;
         width: 31.3%;
@@ -49,7 +47,7 @@ p{
 }
 @media (min-width:768px) and (max-width:991px)/* tablet version*/
 {
-    .section1>div,.section2>div
+    .section1,.section2
     {
         margin:1%;
         border: 1px solid black;
@@ -58,7 +56,7 @@ p{
         float: left;
 
     }
-    .section3>div{
+    .section3{
         margin:1%;
         border: 1px solid black;
         width:98%;
@@ -69,7 +67,7 @@ p{
 }
 @media (max-width:767px)/* mobile version*/
 {
-    section div{
+    section {
         margin:1%;
         border: 1px solid black;
         width: 98%;
