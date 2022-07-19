@@ -11,7 +11,7 @@
 // var byeSpeaker =
 
 // DO NOT attach the speakWord variable to the 'byeSpeaker' object.
-(function(winodw){
+(function(window){
 var byeSpeaker={
 speak: function(name){
    console.log(speakWord + " " + name);
